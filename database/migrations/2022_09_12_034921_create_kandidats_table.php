@@ -21,6 +21,7 @@ class CreateKandidatsTable extends Migration
             $table->string('pendidikan', 50);
             $table->string('nama_foto', 255);
             $table->string('type_foto', 5);
+            $table->integer('ukuran_foto');
             $table->timestamps();
         });
     }

@@ -13,7 +13,7 @@ class CreateFinanceTable extends Migration
      */
     public function up()
     {
-        Schema::create('finance', function (Blueprint $table) {
+        Schema::create('finances', function (Blueprint $table) {
             $table->string('id_finance', 20);
             $table->primary('id_finance');
             $table->dateTime('tanggal');

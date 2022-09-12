@@ -13,9 +13,8 @@ class CreatePerusahaanTable extends Migration
      */
     public function up()
     {
-        Schema::create('perusahaan', function (Blueprint $table) {
-            $table->string('id_perusahaan', 20);
-            $table->primary('id_perusahaan');
+        Schema::create('perusahaans', function (Blueprint $table) {
+            $table->id();
             $table->string('nama_perusahaan', 20);
             $table->string('alamat', 30);
             $table->string('no_telp', 12);
@@ -23,7 +22,15 @@ class CreatePerusahaanTable extends Migration
             $table->string('email');
             $table->unique('email');
             $table->string('website', 20);
-
+            $table->string('nama_foto', 255);
+            $table->string('type_foto', 5);
+            $table->integer('ukuran_foto');
+            $table->foreignId('area_id')->constrained()
+            ->onUpdate('cascade')
+            ->onDelete('cascade');
+            $table->foreignId('kategori_id')->constrained()
+            ->onUpdate('cascade')
+            ->onDelete('cascade');
             $table->timestamps();
         });
     }

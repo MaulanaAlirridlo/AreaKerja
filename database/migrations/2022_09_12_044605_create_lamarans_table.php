@@ -15,9 +15,9 @@ class CreateLamaransTable extends Migration
     {
         Schema::create('lamarans', function (Blueprint $table) {
             $table->id();
-            //$table->foreignId('perusahaan_id')->constrained()
-            //->onUpdate('cascade')
-            //->onDelete('cascade');
+            $table->foreignId('perusahaan_id')->constrained()
+            ->onUpdate('cascade')
+            ->onDelete('cascade');
             $table->string('jenis_lowongan',255);
             $table->string('status_kerja',50);
             $table->string('pendidikan',50);

@@ -12,9 +12,17 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
-                    @endif
+                        @endif
+                        
+                        ini halaman home.
+                        <h1>laravel laravel laravel. laravel dowo buntute</h1>
 
-                    {{ __('You are logged in!') }}
+                        <b>gondol gondol pacul cul gembelengan. nyunggi-nyunggi wakulkul gembelengan. 
+                        wakul glimpang. segone dadi sak latar
+                        wakul glimpang. segone dadi sak latar</b>
+
+                        yuhuuuu yahahahah hayyuuuk
+                    <p>{{ __('You are logged in!') }}</p>
                 </div>
             </div>
         </div>

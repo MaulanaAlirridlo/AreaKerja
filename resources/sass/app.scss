@@ -7,5 +7,16 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-@import "~aos/dist/aos.css"
+@import "~aos/dist/aos.css";
 
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+
+.owl-item.active.center {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.owl-item.active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}

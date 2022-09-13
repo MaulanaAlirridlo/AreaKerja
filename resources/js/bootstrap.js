@@ -1,5 +1,7 @@
 window._ = require('lodash');
 
+window.$ = window.jQuery = require('jquery');
+
 try {
     require('bootstrap');
 } catch (e) {}
@@ -34,3 +36,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.AOS = require('AOS');
 
 AOS.init();
+
+require('owl.carousel')
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel();
+});

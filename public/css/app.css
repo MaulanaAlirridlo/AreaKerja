@@ -21465,11 +21465,3 @@ readers do not read off random characters that represent icons */
   white-space: nowrap;
   border-width: 0;
 }
-
-.owl-item.active.center {
-  transform: scale(1.05);
-}
-
-.owl-item.active {
-  transform: scale(0.9);
-}

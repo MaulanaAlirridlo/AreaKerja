@@ -34,3 +34,17 @@
 .list-lowongan {
   width: 250px;
 }
+
+.owl-item.active.center {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.owl-item.active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.owl-stage-outer {
+  padding: 3rem;
+}

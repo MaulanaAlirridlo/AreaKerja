@@ -32,58 +32,58 @@
 
         <h2 class="text-center">Rekomendasi Lowongan</h2>
         <div class="owl-carousel loop my-3">
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>
             </div>
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>
             </div>
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>
             </div>
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>
             </div>
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>
             </div>
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>
             </div>
-            <div class="rounded shadow-lg p-4 list-lowongan">
+            <div class="rounded shadow p-4 list-lowongan">
                 <h5 class="text-secondary">Dibutuhkan</h5>
                 <h5>Nama Pekerjaan</h5>
-                <img class="w-25 m-auto" src="{{asset('images/logo.png')}}" alt="">
+                <img class="w-50 m-auto" src="{{asset('images/logo.png')}}" alt="">
                 <h5 class="border-bottom p-1">Nama Perusahaan</h5>
                 <h5 class="border-bottom p-1">Waktu</h5>
                 <h5 class="border-bottom p-1">Lokasi</h5>

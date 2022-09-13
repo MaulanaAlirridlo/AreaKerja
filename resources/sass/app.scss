@@ -15,13 +15,3 @@
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
-
-.owl-item.active.center {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.owl-item.active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
